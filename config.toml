@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "/"
-title = "Data and Decision Sciences"
+title = "Data and Decision Sciences at UNO"
 theme = "educenter-hugo"
 # post pagination
 paginate = "6"
