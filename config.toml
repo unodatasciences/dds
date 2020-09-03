@@ -11,6 +11,7 @@ disqusShortname = ""
 # disable language
 disableLanguages = ["french"] # desable language from here
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+relativeURLs = true
 
 ############################# Plugins ##############################
 

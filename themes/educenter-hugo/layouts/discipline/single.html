@@ -33,7 +33,7 @@
           <div class="media mb-2 mb-sm-0 align-items-center">
             <img class="mr-4 img-fluid faculty-thumb-sm" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
             <div class="media-body">
-              <h4 class="mt-0"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+              <h4 class="mt-0"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
               {{ .Params.Discipline }}
             </div>
           </div>
