@@ -80,13 +80,13 @@
   translation: Enter your email…
 
 - id: company
-  translation: Lab
+  translation: About
 
 - id: links
   translation: links
 
 - id: disciplines
-  translation: Disciplines
+  translation: Concentrations
 
 - id: new_notice
   translation: new notice

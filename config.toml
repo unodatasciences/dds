@@ -49,7 +49,7 @@ hasChildren = true
 
   [[menu.main]]
   parent = "About"
-  name = "About us"
+  name = "Consulting Lab"
   URL = "about"
   weight = 1
 
@@ -124,6 +124,14 @@ URL = "event"
 [[menu.footer]]
 name = "Projects"
 URL = "project"
+
+[[menu.footer]]
+name = "Publications"
+URL = "publication"
+
+[[menu.footer]]
+name = "Consulting lab"
+URL = "about"
 
 
 #################### default parameters ################################

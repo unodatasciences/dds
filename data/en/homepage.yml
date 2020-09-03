@@ -57,21 +57,25 @@ banner_feature:
     - name : "Data Science"
       icon : "ti-anchor" # icon pack : https://themify.me/themify-icons
       content : "Data Science is the art and science of transforming raw data into deliverable data products, in order to help businesses or government agencies to make more informed decisions."
+      link : "discipline/data-science/"
 
     # feature item loop
     - name : "Operations Research"
       icon : "ti-panel" # icon pack : https://themify.me/themify-icons
       content : "Operations Research is the application of advanced analytical methods to enable better decision making."
+      link : "discipline/operations-research/"
 
     # feature item loop
     - name : "Statistics"
       icon : "ti-bar-chart" # icon pack : https://themify.me/themify-icons
       content : "Statistics is used in many fields, including biology, sociology, psychology, medicine, economics, quality control, and sports."
+      link : "discipline/statistics/"
 
     # feature item loop
     - name : "Consulting Lab"
       icon : "ti-signal" # icon pack : https://themify.me/themify-icons
       content : "Consulting Lab is committed to providing UNO faculty, staff, and students with consultation on research and survey design, data collection and management, statistical analysis, and evaluation."
+      link : "about/"
 
 
 ############################## about ##################################
