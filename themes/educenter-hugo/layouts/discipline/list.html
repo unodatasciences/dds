@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<!-- disciplines -->
+<section class="section">
+  <div class="container">
+    <!-- discipline list -->
+    <div class="row justify-content-center">
+      <!-- discipline item -->
+      {{ range .Data.Pages }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        {{ .Render "discipline" }}
+      </div>
+      {{ end }}
+    </div>
+    <!-- /discipline list -->
+  </div>
+</section>
+<!-- /disciplines -->
+
+{{ end }}

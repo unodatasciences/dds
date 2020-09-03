@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<!-- project -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {{ range .Data.Pages}}
+      <!-- recharch item -->
+      <div class="col-lg-4 col-sm-6 mb-4">
+        {{ .Render "project" }}</div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /project -->
+
+{{ end }}
