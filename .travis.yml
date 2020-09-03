@@ -3,10 +3,6 @@ dist: focal
 latex: false
 pandoc: false
 
-branches:
-  only:
-    - master
-
 cache:
   packages: yes
   directories:
