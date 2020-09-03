@@ -26,4 +26,4 @@ deploy:
   on:
     branch: master
   local_dir: public
-  fqdn: dds.unomaha.community
+  # fqdn: dds.unomaha.community
