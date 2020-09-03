@@ -1,0 +1,33 @@
+language: r
+dist: focal
+latex: false
+pandoc: false
+
+branches:
+  only:
+    - master
+
+cache:
+  packages: yes
+  directories:
+    - $HOME/bin
+
+env:
+  global:
+    - PATH=$HOME/bin:$PATH
+
+before_script:
+  - Rscript -e "blogdown::install_hugo('0.74.3')"
+  - hugo version
+
+script:
+  - hugo
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
+  local_dir: public
+  fqdn: dds.unomaha.community
