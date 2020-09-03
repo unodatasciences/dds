@@ -18,12 +18,4 @@ before_script:
 
 script:
   - hugo
-
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  on:
-    branch: master
-  local_dir: public
-  # fqdn: dds.unomaha.community
+  - ./_deploy.sh
