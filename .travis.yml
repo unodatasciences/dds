@@ -1,10 +1,7 @@
-language: r
+language: c
 dist: focal
-latex: false
-pandoc: false
 
 cache:
-  packages: yes
   directories:
     - $HOME/bin
 
@@ -12,10 +9,11 @@ env:
   global:
     - PATH=$HOME/bin:$PATH
 
-before_script:
-  - Rscript -e "blogdown::install_hugo('0.74.3')"
+install:
+  - "[ -x ~/bin/hugo ] || curl -sL https://github.com/gohugoio/hugo/releases/download/v0.74.3/hugo_extended_0.74.3_Linux-64bit.tar.gz | tar zxf - && mv hugo ~/bin"
   - hugo version
 
 script:
+  - git clean -f
   - hugo
   - ./_deploy.sh
