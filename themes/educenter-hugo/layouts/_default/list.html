@@ -26,7 +26,7 @@
                   <!-- source -->
                   {{ if and (not (eq .Params.Source "#")) (isset .Params "source") }}
                   <li class="list-inline-item mr-3 ml-0 mt-3"><i class="ti-world"></i> <a
-                    href="{{ .Params.Source| urlize }}">{{ .Params.Source }}</a>
+                    href="{{ .Params.Source }}">{{ .Params.Source }}</a>
                   </li>
                   {{ end }}
                 </ul>

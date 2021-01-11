@@ -12,7 +12,7 @@ tags:
 - Automation
 title: Elegant Light Box Paper Cut Dioramas
 type: post
-source: "unomaha.edu"
+source: "https://unomaha.edu"
 ---
 
 ### The standard Lorem Ipsum passage, used since the 1500s
