@@ -10,7 +10,8 @@ env:
     - PATH=$HOME/bin:$PATH
 
 install:
-  - "[ -x ~/bin/hugo ] || curl -sL https://github.com/gohugoio/hugo/releases/download/v0.74.3/hugo_extended_0.74.3_Linux-64bit.tar.gz | tar zxf - && mv hugo ~/bin"
+  - "[ -x ~/bin/hugo ] || curl -L https://github.com/gohugoio/hugo/releases/download/v0.74.3/hugo_extended_0.74.3_Linux-64bit.tar.gz -o hugo.tar.gz"
+  - "[ -f hugo.tar.gz ] && (tar zxf hugo.tar.gz && mv hugo ~/bin) || true"
   - hugo version
 
 script:
