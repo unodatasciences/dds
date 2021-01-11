@@ -103,5 +103,13 @@
     });
   });
 
+  // Publications Button
+  $(document).ready(function() {
+    $(".publications__button").click(function() {
+      let buttonText = $(this).text();
+      $(this).text(buttonText == "View publications" ? "Hide publications" : "View publications");
+    })
+  });
+
 
 })(jQuery);

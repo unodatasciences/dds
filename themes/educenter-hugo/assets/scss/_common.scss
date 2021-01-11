@@ -319,9 +319,6 @@ textarea.form-control{
 
 
 .content {
-  * {
-    margin-bottom: 20px;
-  }
 
   a {
     text-decoration: underline;
@@ -409,4 +406,12 @@ textarea.form-control{
   height: 85px;
   width: 85px;
   object-fit: cover;
+  object-position: top;
+}
+
+.faculty-thumb-xs{
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  object-position: top;
 }

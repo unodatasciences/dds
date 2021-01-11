@@ -4,10 +4,8 @@
 <section class="section bg-cover" data-background="{{ .bg_image | relURL }}">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 col-sm-4 position-relative success-video">
-        <a class="play-btn venobox" href="{{ .video_link | safeURL }}" data-vbtype="video">
-          <i class="ti-control-play"></i>
-        </a>
+      <div class="col-lg-6 col-sm-4 position-relative success-video d-flex align-items-center">
+        <iframe width="560" height="100%" src="{{ .video_link | safeURL }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div class="col-lg-6 col-sm-8">
         <div class="bg-white p-5">

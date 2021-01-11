@@ -50,12 +50,6 @@ hasChildren = true
 
   [[menu.main]]
   parent = "About"
-  name = "Consulting Lab"
-  URL = "about"
-  weight = 1
-
-  [[menu.main]]
-  parent = "About"
   name = "Data Science"
   URL = "discipline/data-science/"
   weight = 2
@@ -79,32 +73,56 @@ hasChildren = true
   weight = 5
 
 [[menu.main]]
-weight = 3
-name = "Resources"
+weight = 2
+name = "Consulting Lab"
 hasChildren = true
+
+  [[menu.main]]
+    parent = "Consulting Lab"
+    name = "Community Projects"
+    URL = "lab/community"
+    weight = 1
+
+  [[menu.main]]
+    parent = "Consulting Lab"
+    name = "Industrial Projects"
+    URL = "lab/industrial"
+    weight = 2
+
+  [[menu.main]]
+    parent = "Consulting Lab"
+    name = "Research Projects"
+    URL = "lab/research"
+    weight = 3
+
+  [[menu.main]]
+    parent = "Consulting Lab"
+    name = "Work with us"
+    URL = "lab/work-with-us"
+    weight = 4
+
+[[menu.main]]
+name = "Resources"
+URL = "blog"
+weight = 4
+
+  [[menu.main]]
+  parent = "Resources"
+  name = "Blog"
+  URL = "blog"
+  weight = 1
 
   [[menu.main]]
   parent = "Resources"
   name = "Events"
   URL = "event"
-  weight = 1
-
-  [[menu.main]]
-  parent = "Resources"
-  name = "Publications"
-  URL = "publication"
   weight = 2
 
   [[menu.main]]
   parent = "Resources"
-  name = "Projects"
-  URL = "project"
+  name = "News"
+  URL = "news"
   weight = 3
-
-[[menu.main]]
-name = "News"
-URL = "blog"
-weight = 4
 
 [[menu.main]]
 name = "Contact"
@@ -137,14 +155,16 @@ URL = "about"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/logo/logo_style.png"
+# 1 through 16
+logo_style = 10
 # Meta data
 description = "Data and Decision Sciences, University of Omaha at Omaha"
 author = "DDS Admin"
 # contact info
 address = "6001 Dodge Street, Omaha, NE 68182-0243"
 mobile = "402.554.3430"
-email = "unomathematics@unomaha.edu"
+email = "dds@unomaha.edu"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
@@ -191,7 +211,7 @@ link = "#"
 [[params.social]]
 title = "github"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "https://github.com/unodatasciences"
+link = "#"
 
 [[params.social]]
 title = "linkedin"
@@ -207,7 +227,7 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2020 Department of Mathematics, UNO"
+copyright = "Copyright &copy; 2021 Data and Decision Sciences, UNO"
 
 
 ################################### French language #####################################
@@ -218,7 +238,7 @@ copyright = "Copyright &copy; 2020 Department of Mathematics, UNO"
 # weight = 2
 # home = "Accueil"
 # # copyright
-# copyright = "Copyright &copy; 2020 Department of Mathematics, UNO"
+# copyright = "Copyright &copy; 2021 Data and Decision Sciences, UNO"
 
 [markup]
     [markup.goldmark.renderer]

@@ -10,13 +10,19 @@
       <div class="col-md-8 mb-8">
         <h3>{{ .Title }}</h3>
         <h6 class="text-color">{{ .Params.Discipline }}</h6>
-        <p class="mb-5">{{ .Params.Bio | markdownify }}</p>
+        <ul class="list-unstyled mb-5 mt-3">
+          {{ range .Params.Education }}
+          <li class="mb-3">{{ . | title }}</li>
+          {{ end }}
+        </ul>
         <div class="row">
           <div class="col-md-6 mb-5 mb-md-0">
             <h4 class="mb-4">{{ i18n "contact_info" | upper}}:</h4>
             <ul class="list-unstyled">
               {{ range .Params.Contact }}
+              {{ if and (not (eq .link "#")) (not (eq .link "")) }}
               <li class="mb-3"><a class="text-color" href="{{ .link | safeURL }}"><i class="{{ .icon }} mr-2"></i>{{ .name }}</a></li>
+              {{ end }}
               {{ end }}
             </ul>
           </div>
@@ -34,18 +40,181 @@
         {{ .Content }}
       </div>
     </div>
-
+    <!-- publications -->
     <div class="row">
       <div class="col-12">
-        <h4 class="mb-4">{{ i18n "disciplines" | upper}}</h4>
+        <h3>{{ i18n "publications" | upper }}</h3>
+        <ul class="list-unstyled mt-3">
+          {{ range .Params.Publication }}
+          <li class="mb-3">{{ . | title }}</li>
+          {{ end }}
+        </ul>
       </div>
-      <!-- discipline item -->
-      {{ range where site.RegularPages "Params.faculty" "intersect" (slice .Title) }}
-      <div class="col-lg-4 col-sm-6 mb-5">
-        {{ .Render "discipline"}}
-      </div>
-      {{ end }}
     </div>
+    <!-- grad students -->
+    {{ if .Params.Current_Graduate_Students }}
+      <div class="row mt-3">
+        <div class="col-12">
+          <h3 class="mb-4">{{ i18n "current_graduate_students" | upper }}</h3>
+          <div class="container">
+            <div class="row">
+              {{ range .Params.Current_Graduate_Students }}
+              <div class="card student-card mb-3 col-md-6 border-0">
+                <div class="row">
+                  <div class="col-md-4 d-flex align-items-center px-0">
+                    {{ if .picture }}
+                      <img src="{{ .picture | relURL }}" class="card-img student__picture" alt="Placeholder Picture">
+                    {{ else }}
+                      <img src="/images/faculty/students/placeholder.jpg" class="card-img student__picture" alt="Placeholder Picture">
+                    {{ end }}
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">{{ .name }}</h5>
+                      {{ range .project }}
+                        <h6 class="card-subtitle mb-2 text-muted">{{ .type }}</h6>
+                        <p class="card-text">{{ .name }}.
+                          {{ if .sponsor }}
+                            Sponsored by {{ .sponsor }}.
+                          {{ end }}
+                          {{ if .collaborator }}
+                            Collaborated with {{ .collaborator }}.
+                          {{ end }}
+                        </p>
+                      {{ end }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+    <!-- undergrad students -->
+    {{ if .Params.Current_Undergraduate_Students }}
+      <div class="row mt-3">
+        <div class="col-12">
+          <h3 class="mb-4">{{ i18n "current_undergraduate_students" | upper }}</h3>
+          <div class="container">
+            <div class="row">
+              {{ range .Params.Current_Undergraduate_Students }}
+              <div class="card student-card mb-3 col-md-6 border-0">
+                <div class="row">
+                  <div class="col-md-4 d-flex align-items-center px-0">
+                    {{ if .picture }}
+                      <img src="{{ .picture | relURL }}" class="card-img student__picture" alt="Placeholder Picture">
+                    {{ else }}
+                      <img src="/images/faculty/students/placeholder.jpg" class="card-img student__picture" alt="Placeholder Picture">
+                    {{ end }}
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">{{ .name }}</h5>
+                      {{ range .project }}
+                        <h6 class="card-subtitle mb-2 text-muted">{{ .type }}</h6>
+                        <p class="card-text">{{ .name }}.
+                          {{ if .sponsor }}
+                            Sponsored by <b>{{ .sponsor }}</b>.
+                          {{ end }}
+                          {{ if .collaborator }}
+                            Collaborated with <b>{{ .collaborator }}</b>.
+                          {{ end }}
+                        </p>
+                      {{ end }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+    <!-- past grad students -->
+    {{ if .Params.Graduate_Students }}
+      <div class="row mt-3">
+        <div class="col-12">
+          <h3 class="mb-4">{{ i18n "graduate_students" | upper }}</h3>
+          <div class="container">
+            <div class="row">
+              {{ range .Params.Graduate_Students }}
+              <div class="card student-card mb-3 col-md-6 border-0">
+                <div class="row">
+                  <div class="col-md-4 d-flex align-items-center px-0">
+                    {{ if .picture }}
+                      <img src="{{ .picture | relURL }}" class="card-img student__picture" alt="Placeholder Picture">
+                    {{ else }}
+                      <img src="/images/faculty/students/placeholder.jpg" class="card-img student__picture" alt="Placeholder Picture">
+                    {{ end }}
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">{{ .name }}</h5>
+                      {{ range .project }}
+                        <h6 class="card-subtitle mb-2 text-muted">{{ .type }}</h6>
+                        <p class="card-text">{{ .name }}.
+                          {{ if .sponsor }}
+                            Sponsored by {{ .sponsor }}.
+                          {{ end }}
+                          {{ if .collaborator }}
+                            Collaborated with {{ .collaborator }}.
+                          {{ end }}
+                        </p>
+                      {{ end }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+    <!-- past undergrad students -->
+    {{ if .Params.Undergraduate_Students }}
+      <div class="row mt-3">
+        <div class="col-12">
+          <h3 class="mb-4">{{ i18n "undergraduate_students" | upper }}</h3>
+          <div class="container">
+            <div class="row">
+              {{ range .Params.Undergraduate_Students }}
+              <div class="card student-card mb-3 col-md-6 border-0">
+                <div class="row">
+                  <div class="col-md-4 d-flex align-items-center px-0">
+                    {{ if .picture }}
+                      <img src="{{ .picture | relURL }}" class="card-img student__picture" alt="Placeholder Picture">
+                    {{ else }}
+                      <img src="/images/faculty/students/placeholder.jpg" class="card-img student__picture" alt="Placeholder Picture">
+                    {{ end }}
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">{{ .name }}</h5>
+                      {{ range .project }}
+                        <h6 class="card-subtitle mb-2 text-muted">{{ .type }}</h6>
+                        <p class="card-text">{{ .name }}.
+                          {{ if .sponsor }}
+                            Sponsored by {{ .sponsor }}.
+                          {{ end }}
+                          {{ if .collaborator }}
+                            Collaborated with {{ .collaborator }}.
+                          {{ end }}
+                        </p>
+                      {{ end }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {{ end }}
   </div>
 </section>
 <!-- /faculty details -->

@@ -23,7 +23,7 @@ contact:
 - icon: ti-location-pin
   link: '#'
   name: DSC 225
-discipline: Data Science
+discipline: Assistant Professor
 description: Xiaoyue Cheng is an assistant professor of mathematics in University of Nebraska at Omaha. Her research interests include statistical visualization, interactive graphics, machine learning, classification, Exploratory data analysis, missing data analysis, time series, statistical simulation and computing.
 draft: false
 image: images/faculty/cheng.jpg

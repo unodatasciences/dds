@@ -30,7 +30,37 @@
 {{ end }}
 <!-- /hero slider -->
 
-<!-- banner-feature -->
+<!-- about us -->
+{{ if $data.homepage.about.enable }}
+{{ with $data.homepage.about }}
+<section class="bg-gray overflow-md-hidden">
+  <div class="container-fluid p-0">
+    <div class="row no-gutters">
+      <div class="col-xl-4 col-lg-5 align-self-end">
+        {{ if .image.enable }}
+        {{ with .image }}<img class="img-fluid w-100" src="{{ . | relURL }}" alt="banner-feature" />{{ end }}
+        {{ end }}
+      </div>
+      <div class="col-xl-8 col-lg-7">
+        <div class="row about-block bg-gray justify-content-between">
+          <h2 class="section-title">{{ .title | markdownify }}</h2>
+          <p>{{ .content | markdownify }}</p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | relLangURL }}" class="btn btn-primary-outline">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /about us -->
+
+<!--
+
 {{ if $data.homepage.banner_feature.enable }}
 {{ with $data.homepage.banner_feature }}
 <section class="bg-gray overflow-md-hidden">
@@ -57,34 +87,43 @@
 </section>
 {{ end }}
 {{ end }}
-<!-- /banner-feature -->
 
-<!-- about us -->
-{{ if $data.homepage.about.enable }}
-{{ with $data.homepage.about }}
+-->
+
+<!-- banner-feature -->
+{{ if $data.homepage.banner_feature.enable }}
+{{ with $data.homepage.banner_feature }}
 <section class="section">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify }}</p>
-        {{ if .button.enable }}
-        {{ with .button }}
-        <a href="{{ .link | relLangURL }}" class="btn btn-primary-outline">{{ .label }}</a>
-        {{ end }}
-        {{ end }}
+        <h2 class="section-title text-xl-left text-lg-left text-sm-center">{{ .title | markdownify }}</h2>
       </div>
-      {{ with .image }}
-      <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
-        <img class="img-fluid w-100" src="{{ . | relURL }}" alt="about image">
+    </div>
+  </div>
+  <div class="container">
+    <div class="row no-gutters">
+      <div class="col-xl-12 col-lg-12">
+        <div class="row feature-blocks justify-content-between">
+          {{ range .feature_item }}
+          <div class="feature-block col-sm-6 col-xl-4 text-center text-sm-left">
+            <div class="feature-block__content h-100 col-sm-6 col-xl-11 text-center text-sm-left shadow-lg shadow-xl">
+              <i class="{{ .icon }} mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+              <a href="{{ .link | relURL }}">
+                <h3 class="mb-xl-4 mb-lg-3 mb-4">{{ .name | markdownify }}</h3>
+                <p>{{ .content | markdownify }}</p>
+              </a>
+            </div>
+          </div>
+          {{ end }}
+        </div>
       </div>
-      {{ end }}
     </div>
   </div>
 </section>
 {{ end }}
 {{ end }}
-<!-- /about us -->
+<!-- /banner-feature -->
 
 <!-- disciplines -->
 {{ if $data.homepage.discipline.enable }}

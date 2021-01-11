@@ -51,6 +51,7 @@ slider:
 ############################### Banner feature ###############################
 banner_feature:
   enable : true
+  title: "Our Branches"
   # image : "images/banner/left.jpg"
   feature_item:
     # feature item loop
@@ -72,17 +73,19 @@ banner_feature:
       link : "discipline/statistics/"
 
     # feature item loop
-    - name : "Consulting Lab"
-      icon : "ti-signal" # icon pack : https://themify.me/themify-icons
-      content : "Consulting Lab is committed to providing UNO faculty, staff, and students with consultation on research and survey design, data collection and management, statistical analysis, and evaluation."
-      link : "about/"
+    #- name : "Consulting Lab"
+    #  icon : "ti-signal" # icon pack : https://themify.me/themify-icons
+    #  content : "Consulting Lab is committed to providing UNO faculty, staff, and students with consultation on research and survey design, data collection and management, statistical analysis, and evaluation."
+    #  link : "about/"
 
 
 ############################## about ##################################
 about:
   enable : true
-  title : "Who are we"
-  image : "images/about/about-us.jpg"
+  title : "Who we are"
+  image : 
+    enabled : false
+    url : "images/about/about-us.jpg"
   content : "We are a group of faculty from UNO Mathematics department with expertise in Data Science, Statistics, Operations Research. We are located in Omaha and would like to engage in communities with need for data consulting. We provide a wide range of services ranging from Statistical Modeling, Computing, Data Visualization etc. We provide undergraduate and graduate level disciplines in those areas as well, and the students are engaged in learning, working on real data processing."
   button:
     enable : true
@@ -117,7 +120,7 @@ success_story:
   ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
   dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
   # video link
-  video_link : "https://www.youtube.com/watch?v=BxNfk0anhJo"
+  video_link : "https://www.youtube.com/embed/BxNfk0anhJo"
 
 
 ############################# event ################################

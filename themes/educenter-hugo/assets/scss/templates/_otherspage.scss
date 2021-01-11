@@ -24,3 +24,41 @@
     }
   }
 }
+
+.faculty-box {
+  padding: 5px 0;
+}
+
+.publication {
+  margin-bottom: 20px;
+}
+
+.publications__button {
+  border: 1px solid #B60000;
+  color: #B60000;
+  background: transparent;
+  padding: 15px;
+  float: right;
+  margin-bottom: 20px;
+}
+
+.data-science__accordion {
+
+  margin: 20px 0;
+
+  button {
+    margin-bottom: 0;
+    padding: 15px 20px;
+  }
+}
+
+.data-science__image {
+  height: 150px;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.student__picture {
+  height: 250px;
+  object-fit: cover;
+}

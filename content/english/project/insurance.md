@@ -6,6 +6,7 @@ draft: false
 image: images/project/insurance.png
 title: Health Insurance in Nebraska
 type: project
+faculty: [Xiaoyue Cheng]
 ---
 
 ### Description of Center for Public Affairs Research

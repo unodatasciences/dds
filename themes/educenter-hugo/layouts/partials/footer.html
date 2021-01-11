@@ -29,8 +29,8 @@
       <div class="row">
         <div class="col-lg-6 col-sm-8 mb-5 mb-lg-0">
           <!-- logo -->
-          <a class="logo-footer" href="{{ site.BaseURL | relLangURL }}"><img class="img-fluid mb-4" src="{{ site.Params.logo | relURL }}" alt="{{ site.Title }}"></a>
-          <ul class="list-unstyled">
+          <a class="logo-footer" href="{{ site.BaseURL | relLangURL }}"><img class="img-fluid mb-4" src='{{ (replace (site.Params.logo) "style" (site.Params.logo_style)) | relURL }}' alt="{{ site.Title }}"></a>
+          <ul class="list-unstyled text-light">
             <li class="mb-4">{{ site.Params.address | markdownify }}</li>
             <li class="mb-4">{{ site.Params.email | markdownify }}</li>
             <li class="mb-4">{{ site.Params.mobile | markdownify }}</li>
@@ -38,34 +38,38 @@
         </div>
         <!-- company -->
         <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
-          <h4 class="text-white mb-5 text-uppercase">{{ i18n "company" }}</h4>
-          <ul class="list-unstyled">
-            {{ range site.Menus.main }}
-            {{ if not .HasChildren }}
-            <li class="mb-3"><a class="text-color" href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
-            {{ end }}
-            {{ end }}
+          <h4 class="text-white mb-5 text-uppercase">{{ i18n "about" }}</h4>
+          <ul class="list-unstyled text-light">
+              {{ range last 1 (first 1 site.Menus.main) }}
+                {{ range .Children }}
+                  <li class="mb-3"><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+                {{ end }}
+              {{ end }}
           </ul>
         </div>
         <!-- links -->
         <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
-          <h4 class="text-white mb-5 text-uppercase">{{ i18n "links" }}</h4>
-          <ul class="list-unstyled">
-            {{ range site.Menus.footer }}
-            <li class="mb-3"><a class="text-color" href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+          <h4 class="text-white mb-5 text-uppercase">{{ i18n "consulting_lab" }}</h4>
+          <ul class="list-unstyled text-light">
+            {{ range last 1 (first 2 site.Menus.main) }}
+              {{ range .Children }}
+                <li class="mb-3"><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+              {{ end }}
             {{ end }}
           </ul>
         </div>
         <!-- support -->
         <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
-          <h4 class="text-white mb-5 text-uppercase">{{ i18n "disciplines" }}</h4>
-          <ul class="list-unstyled">
-            {{ range first 5 (where site.RegularPages "Type" "discipline")}}
-            <li class="mb-3"><a class="text-color" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          <h4 class="text-white mb-5 text-uppercase">{{ i18n "resources" }}</h4>
+          <ul class="list-unstyled text-light">
+            {{ range last 1 (first 3 site.Menus.main) }}
+              {{ range .Children }}
+                <li class="mb-3"><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+              {{ end }}
             {{ end }}
           </ul>
         </div>
-      </div>
+    </div>
     </div>
   </div>
   <!-- copyright -->
@@ -73,12 +77,14 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-7 text-sm-left text-center">
-          <p class="mb-0">{{ site.Params.copyright | markdownify }}</p>
+          <p class="mb-0 text-light">{{ site.Params.copyright | markdownify }}</p>
         </div>
         <div class="col-sm-5 text-sm-right text-center">
           <ul class="list-inline">
             {{ range site.Params.social }}
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="{{ .link | safeURL }}"><i class="{{ .icon }} text-primary"></i></a></li>
+            {{ if and (not (eq .link "#")) (not (eq .link "")) }}
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="{{ .link | safeURL }}"><i class="{{ .icon }} text-light"></i></a></li>
+            {{ end }}
             {{ end }}
           </ul>
         </div>

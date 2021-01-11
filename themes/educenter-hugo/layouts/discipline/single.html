@@ -29,7 +29,7 @@
       <div class="col-12">
         <h5 class="mb-3">{{ i18n "faculty" }}</h5>
         {{ range where site.RegularPages "Title" "in" .Params.Faculty }}
-        <div class="d-flex justify-content-between align-items-center flex-wrap">
+        <div class="faculty-box d-flex justify-content-between align-items-center flex-wrap">
           <div class="media mb-2 mb-sm-0 align-items-center">
             <img class="mr-4 img-fluid faculty-thumb-sm" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
             <div class="media-body">
@@ -41,7 +41,9 @@
             <h6 class="d-none d-sm-block text-right">{{ i18n "contact_info" }}</h6>
             <ul class="list-inline">
               {{ range .Params.Contact }}
+              {{ if and (not (eq .link "#")) (not (eq .link "")) }}
               <li class="list-inline-item"><a class="d-inline-block text-light p-1" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+              {{ end }}
               {{ end }}
             </ul>
           </div>

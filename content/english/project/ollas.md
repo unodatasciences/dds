@@ -6,6 +6,7 @@ draft: false
 image: images/project/ollas.png
 title: A Demographic Portrait of Latino Population Growth and Past and Potential Political Engagement
 type: project
+faculty: [Xiaoyue Cheng]
 ---
 
 ### OLLAS Description

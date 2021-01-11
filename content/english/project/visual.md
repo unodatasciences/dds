@@ -6,6 +6,7 @@ draft: false
 image: images/project/visual.png
 title: Visual Analysis on Short Term Memory
 type: project
+faculty: [Xiaoyue Cheng]
 ---
 
 ### Description of The Department of Psychology and Neuroscience

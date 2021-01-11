@@ -23,7 +23,7 @@ contact:
 - icon: ti-location-pin
   link: '#'
   name: DSC 236
-discipline: Statistics
+discipline: Professor
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
 draft: false
 image: images/faculty/steve.jpg

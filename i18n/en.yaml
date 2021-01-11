@@ -79,14 +79,35 @@
 - id: enter_email
   translation: Enter your email…
 
-- id: company
+- id: about
   translation: About
 
-- id: links
-  translation: links
+- id: consulting_lab
+  translation: Lab
 
-- id: disciplines
-  translation: Concentrations
+- id: resources
+  translation: Resources
+
+- id: publications
+  translation: Publications
+
+- id: current_graduate_students
+  translation: Current Graduate Students
+
+- id: current_undergraduate_students
+  translation: Current Undergraduate Students
+
+- id: graduate_students
+  translation: Past Graduate Students
+
+- id: undergraduate_students
+  translation: Past Undegraduate Students
+
+- id: view_publications
+  translation: View publications
+
+- id: hide_publications
+  translation: Hide publications
 
 - id: new_notice
   translation: new notice
