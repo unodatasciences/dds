@@ -66,7 +66,7 @@ interest:
 title: Steve From
 type: faculty
 
-- current_graduate_students:
+current_graduate_students:
 - name: Yao Todo
   picture: 
   project:
