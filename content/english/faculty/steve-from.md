@@ -112,7 +112,7 @@ current_undergraduate_students:
       name: Approximation of Expected Values of Non-Linear Functions of Random Variables
   linkedin_profile_url: ""
 
-  - name: Rodney Tembo
+- name: Rodney Tembo
   picture: 
   project:
     - type: Research Project
