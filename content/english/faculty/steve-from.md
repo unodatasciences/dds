@@ -66,8 +66,79 @@ interest:
 - Theoretical Statistics
 title: Steve From
 type: faculty
----
 
+- current_graduate_students:
+- name: Yao Todo
+  picture: 
+  project:
+    - type: Research Project
+      name: Estimating Parameters of Distributions Using Mean Residual Life Functionsr
+  linkedin_profile_url: ""
+
+- name: Godfred Amoah
+  type: current
+  picture: images/faculty/students/Photo-Adel-KabiriKopaei.jpg
+  project:
+    - type: Research Project
+      name: Approximating the Distribution of the Sum of Independent and Dependent Bernoulli Random Variables with an Application to the Two State Markov Chain
+  linkedin_profile_url: ""
+
+- name: Naif Alghamdi
+  project:
+    - type: Research Project
+      name: Confidence Intervals for Ratios of Multinomial Proportions
+  linkedin_profile_url: ""
+
+current_undergraduate_students:
+- name: Suthakaran Ratnasingam
+  picture: 
+  project:
+    - type: Research Project
+      name: Statistical Modelling for Extreme Precipitation in Sri Lanka
+      sponsor: 
+  linkedin_profile_url: ""
+
+- name: Tyler Brown
+  picture: 
+  project:
+    - type: Research Project
+      name: Some New Closed-Form Small-Sample Estimators for the Linear Failure Rate and Birnbaum-Saunders Distributions
+      collaborator: 
+  linkedin_profile_url: ""
+
+- name: Nirosha Rathnayake
+  picture: 
+  project:
+    - type: Research Project
+      name: Approximation of Expected Values of Non-Linear Functions of Random Variables
+  linkedin_profile_url: ""
+
+  - name: Rodney Tembo
+  picture: 
+  project:
+    - type: Research Project
+      name: Asymptotic Confidence Intervals for Certain Functions of Population Moments
+      sponsor: 
+  linkedin_profile_url: ""
+
+- name: Beichen Wang
+  picture: 
+  project:
+    - type: Research Project
+      name: Approximating Discrete Distributions Using Rational Functions
+      collaborator: 
+  linkedin_profile_url: ""
+
+- name: Bingyong Deng
+  picture: 
+  project:
+    - type: Research Project
+      name: Approximations and Bounds for the Extinction Probability of a Galton-Watson Branching Process
+  linkedin_profile_url: ""
+
+
+
+---
 ### Academic and Professional Experience
 
 Steven joined the department of Mathematics at the University of Nebraska at Omaha in 1986 as an Assistant Professor. He received a Ph.D. in Mathematical Statistics from the department of Mathematics and Statistics at the University of Nebraska–Lincoln in 1985. He also taught operations research for one semester as a Visiting Assistant Professor at the University of Nebraska–Lincoln in the department of Mathematics and Statistics during 1986. Steven has taught over 25 different courses in both mathematics and statistics in his 34 year career. He has also given numerous independent studies in statistics, probability, and analysis.
