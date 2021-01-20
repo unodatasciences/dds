@@ -1,7 +1,6 @@
 ---
 bg_image: images/backgrounds/page-title.jpg
-bio: Ph.D., Mathematical Statistics, University of Nebraska–Lincoln, 1985
-B.S., Mathematics, Creighton University, 1979
+bio: Ph.D., Mathematical Statistics, University of Nebraska–Lincoln, 1985; B.S., Mathematics, Creighton University, 1979
 contact:
 - icon: ti-email
   link: mailto:sfrom@unomaha.edu
