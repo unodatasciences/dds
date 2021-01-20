@@ -6,6 +6,9 @@ options(
     # if the title is pure ASCII, use title case
     if (xfun::is_ascii(x)) tools::toTitleCase(x) else x
   },
-  blogdown.generator.server = TRUE,
-  blogdown.hugo.server = c('-D', '-F', '--navigateToChanged')
+  blogdown.hugo.version = '0.74.3'
 )
+
+if (blogdown::hugo_available('0.74.3', exact = TRUE)) {
+  blogdown::install_hugo('0.74.3')
+}
