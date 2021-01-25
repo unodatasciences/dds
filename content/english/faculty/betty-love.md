@@ -26,7 +26,7 @@ contact:
 discipline: Professor
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
 draft: false
-image: images/faculty/love.jpg
+image: images/faculty/love(updated).jpg
 interest:
 - Mathematical Programming
 - Data Analysis
