@@ -1,8 +1,6 @@
 ---
 bg_image: images/backgrounds/page-title.jpg
-bio: 
-Betty is a Professor in the Mathematical and Data Sciences Department at the University of Nebraska at Omaha. Her research interests include Mathematical Programming and Optimization,
-Predictive Analytics, and Mathematics Education
+bio: Betty is a Professor in the Mathematical and Data Sciences Department at the University of Nebraska at Omaha. Her research interests include Mathematical Programming and Optimization, Predictive Analytics, and Mathematics Education.
 contact:
 - icon: ti-email
   link: mailto:blove@unomaha.edu
