@@ -1,6 +1,7 @@
 ---
 bg_image: images/backgrounds/page-title.jpg
-bio: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque accusamus tenetur ea harum delectus ab consequatur excepturi, odit qui in quo quia voluptate nam optio, culpa aspernatur. Error placeat iusto officia voluptas quae.
+bio: Fabio is an assistant professor at Decision Sciences Lab and the department of Mathematics at the University of Nebraska at Omaha. His research interests include, Operations Research, Optimization Modeling, Mathematical Programming andOptimization Algorithms.
+
 contact:
 - icon: ti-email
   link: mailto:ftorresvitor@unomaha.edu
@@ -27,7 +28,7 @@ contact:
   link: '#'
   name: DSC 239
 discipline: Operations Research
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+description: Fabio is an assistant professor at Decision Sciences Lab and the department of Mathematics at the University of Nebraska at Omaha. His research interests include, Operations Research, Optimization Modeling, Mathematical Programming andOptimization Algorithms.
 draft: false
 image: images/faculty/fabio.jpg
 interest:
@@ -100,4 +101,3 @@ Fabio joined the Data and Decision Sciences Lab and the department of Mathematic
 Fabio’s research includes both theoretical and applied topics in operations research. His theoretical research creates algorithms to more quickly solve continuous and discrete optimization problems such as linear, nonlinear, and integer programs. For instance, Fabio developed multidimensional search simplex and interior point methods for linear programs as well as cutting plane techniques and branching strategies for integer programs. Some of his applied research involves the application of optimization models and other operations research tools to reduce inventory costs, improve delivery routings, optimize nursery planting allocation, improve airport operations, and create strategies to overcome human trafficking.
 
 Fabio is a recipient of the Nebraska EPSCoR FIRST Award, which is supported by the National Science Foundation to advance the research of early-career tenure-track faculty. During his Doctoral studies, Fabio received the K-State 2025 College of Engineering Fellowship for two consecutive years. He also received several awards during the time he worked for Volkswagen, including the second place in the Best Apprentice Award. Fabio is a member of the Institute for Operations Research and the Management Sciences (INFORMS), the Institute of Industrial and Systems Engineering (IISE), the Society for Industrial and Applied Mathematics (SIAM), and the Mathematical Optimization Society (MOS).
-

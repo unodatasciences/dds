@@ -1,6 +1,7 @@
 ---
 bg_image: images/backgrounds/page-title.jpg
-bio: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque accusamus tenetur ea harum delectus ab consequatur excepturi, odit qui in quo quia voluptate nam optio, culpa aspernatur. Error placeat iusto officia voluptas quae.
+bio: Andrew is an Associate Professor in the department of Mathematical and Data Sciences at the University of Nebraska at Omaha. His research interests include Statistics, Probability, and Operations Research.
+
 contact:
 - icon: ti-email
   link: mailto:aswift@unomaha.edu
@@ -24,9 +25,9 @@ contact:
   link: '#'
   name: DSC 237
 discipline: Associate Professor
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+description: Andrew is an Associate Professor in the department of Mathematical and Data Sciences at the University of Nebraska at Omaha. His research interests include Statistics, Probability, and Operations Research.
 draft: false
-image: images/faculty/swift.jpg
+image: images/faculty/andrew(update).jpg
 interest:
 - Statistics
 - Probability
@@ -51,9 +52,10 @@ publication:
 
 ### About Me
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
+Andrew is an Associate Professor in the department of Mathematical and Data Sciences at the University of Nebraska at Omaha, having joined the department in 2006. He received a DSc. in Operations Research from George Washington University, and a M.A. and B.A. in Mathematics from Oxford University. He previously was a Visiting Assistant Professor at Worcester Polytechnic Institute. During his career, he has taught a variety of statistics, operations research, and mathematics courses. 
 
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+Andrew’s research includes both theoretical and applied topics in statistics and operations research. His theoretical research includes work on such topics as discrete distribution approximation and flexible count distributions. His applied research includes data analysis on topics such as mammal biology, sports, and mathematical education. Andrew also has work as a consultant on several projects and has made several media appearances as a subject matter expert.
+
+Andrew is a member of the American Statistical Association and the International Statistical Institute. He serves as an associate editor of the Journal of Quantitative Analysis in Sports and is a recipient of the Simons Foundation collaboration grant in mathematics.
+
+

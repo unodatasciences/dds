@@ -26,7 +26,7 @@ contact:
 discipline: Assistant Professor
 description: Xiaoyue Cheng is an assistant professor of mathematics in University of Nebraska at Omaha. Her research interests include statistical visualization, interactive graphics, machine learning, classification, Exploratory data analysis, missing data analysis, time series, statistical simulation and computing.
 draft: false
-image: images/faculty/cheng.jpg
+image: images/faculty/Cheng(updated).jpg
 interest:
   - Statistical visualization
   - Machine learning
