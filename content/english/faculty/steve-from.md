@@ -1,7 +1,6 @@
 ---
 bg_image: images/backgrounds/page-title.jpg
-bio: Ph.D., Mathematical Statistics, University of Nebraska–Lincoln, 1985
-B.S., Mathematics, Creighton University, 1979
+bio: Ph.D., Mathematical Statistics, University of Nebraska–Lincoln, 1985; B.S., Mathematics, Creighton University, 1979
 contact:
 - icon: ti-email
   link: mailto:sfrom@unomaha.edu
@@ -25,6 +24,7 @@ contact:
   link: '#'
   name: DSC 236
 discipline: Professor
+
 description: Steven joined the department of Mathematics at the University of Nebraska at Omaha in 1986. His research interests include Mathematical Statistics, Applied Probability and Reliability Theory, Mathematical Inequalities Analysis, Numerical Analysis/Differential Equations
 
 publication: 
@@ -68,7 +68,7 @@ interest:
 title: Steve From
 type: faculty
 
-- current_graduate_students:
+current_graduate_students:
 - name: Yao Todo
   picture: 
   project:
@@ -114,7 +114,8 @@ current_undergraduate_students:
       name: Approximation of Expected Values of Non-Linear Functions of Random Variables
   linkedin_profile_url: ""
 
-  - name: Rodney Tembo
+
+- name: Rodney Tembo
   picture: 
   project:
     - type: Research Project
@@ -146,7 +147,8 @@ Steven joined the department of Mathematics at the University of Nebraska at Oma
 
 Steven has published research papers in mathematical statistics, applied statistics, applied probability theory, reliability theory, mathematical inequalities in probability, statistics and analysis, differential equations, computer science applications, and has collaborated with many individuals outside the department including researchers at the University of New Orleans, Rutgers University, Creighton University, and Victoria University in Australia. Recently, his research has focused more on mathematical inequalities, including some which have applications in probability and statistics, such as Jensen’s inequality.
 
-Steven has won several awards, including the Kerrigan Teaching award as well as the James Earl Diamond Professorship of Mathematics in 2006. During his Kerrigan research grant, his students have done well, including one first place finish and one second place finish in a student mathematics research competition. Prior to 2005, Steven was one of only two faculty trained in statistics as their primary research area, and he did significant statistical consulting with other faculty and students, including faculty and students from the University of Nebraska Medical Center and Creighton University. He has done statistical consulting work with individuals outside the university, including local area educators and Engineers as well. He also has supervised the Master’s thesis of eight students, three of which went on to obtain a Ph.D. in mathematics, statistics or some other related area. He lists this as one of his greatest accomplishments.
+Steven has won several awards, including the Kerrigan Teaching award as well as the James Earl Diamond Professorship of Mathematics in 2006. During his Kerrigan research grant, his students have done well, including one first place finish and one second place finish in a student mathematics research competition. Prior to 2005, Steven was one of only two faculty trained in statistics as their primary research area, and he did significant statistical consulting with other faculty and students, including faculty and students from the University of Nebraska Medical Center and Creighton University. He has done statistical consulting work with individuals outside the university, including local area educators and Engineers as well. He also has supervised the Master’s thesis of eight students, three of which went on to obtain a Ph.D. in mathematics, statistics or some other related area. He lists this as one of his greatest accomplishments. 
+
 
 
 

@@ -50,7 +50,6 @@ publication:
 
 - "Winter V., Friend M., Matthews M., Love B., and Vasireddy S., Using Visualization to Reduce the Cognitive Load of Threshold Concepts in Computer Programming, Proceedings of the 2019 IEEE Frontiers in Education Conference (2019)."
 
-
 - "Winter V., Love B., and Corritore C., The Art of the Wunderlich Cube and the Development of Spatial Abilities, International Journal of Child-Computer Interaction, 18(1), 1-7 (2018)."
 
 - "Friend M., Matthews M., Love B., Winter V., Moisset D., and Goodwin I., Bricklayer: Elementary Students Learn Math Through Programming and Art, Proceedings of the 49th ACM Technical Symposium on Computer Science Education (SIG-CSE), 628-633 (2018)."
