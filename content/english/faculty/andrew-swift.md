@@ -1,6 +1,7 @@
 ---
 bg_image: images/backgrounds/page-title.jpg
-bio: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque accusamus tenetur ea harum delectus ab consequatur excepturi, odit qui in quo quia voluptate nam optio, culpa aspernatur. Error placeat iusto officia voluptas quae.
+bio: Andrew is an Associate Professor in the department of Mathematical and Data Sciences at the University of Nebraska at Omaha. His research interests include Statistics, Probability, and Operations Research.
+
 contact:
 - icon: ti-email
   link: mailto:aswift@unomaha.edu
@@ -24,7 +25,7 @@ contact:
   link: '#'
   name: DSC 237
 discipline: Associate Professor
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+description: Andrew is an Associate Professor in the department of Mathematical and Data Sciences at the University of Nebraska at Omaha. His research interests include Statistics, Probability, and Operations Research.
 draft: false
 image: images/faculty/andrew(update).jpg
 interest:

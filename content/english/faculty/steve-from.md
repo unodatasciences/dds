@@ -25,7 +25,8 @@ contact:
   link: '#'
   name: DSC 236
 discipline: Professor
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+description: Steven joined the department of Mathematics at the University of Nebraska at Omaha in 1986. His research interests include Mathematical Statistics, Applied Probability and Reliability Theory, Mathematical Inequalities Analysis, Numerical Analysis/Differential Equations
+
 publication: 
 - "Dragomir S., and From S., Some Inequalities for an Integrable Operator and n-time Differentiable Functions, Acta Mathematica Universitatis Comenianae, 89(2), 195-213 (2020)."
 - "From S., Some New Upper and Lower Bounds for the Mills Ratio, Journal of Mathematical Analysis and Applications, 486(1), 123782, 25 pp. (2020)."

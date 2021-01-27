@@ -1,7 +1,7 @@
 ---
 bg_image: images/backgrounds/page-title.jpg
-bio: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque accusamus tenetur ea harum delectus ab consequatur excepturi, odit qui in quo quia voluptate nam optio, culpa aspernatur. Error placeat iusto officia voluptas quae.
-contact:
+bio: Mahbubul is an Associate Professor of Statistics with an interest in the emerging field of data science. His research interests include Exploratory Data Analysis, Data Visualization and Visual Inference, Statistical Modeling, and Data Science.
+
 - icon: ti-email
   link: mailto:mmajumder@unomaha.edu
   name: mmajumder@unomaha.edu
@@ -24,7 +24,7 @@ contact:
   link: '#'
   name: DSC 238
 discipline: Associate Professor
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+description: Mahbubul is an Associate Professor of Statistics with an interest in the emerging field of data science. His research interests include Exploratory Data Analysis, Data Visualization and Visual Inference, Statistical Modeling, and Data Science.
 draft: false
 image: images/faculty/Majumder-update.jpg
 interest:
